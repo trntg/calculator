@@ -1,4 +1,8 @@
 language: cpp
+before_install:
+  - brew update
+  - brew install cmake
+
 script: 
   - cd build
   - cmake ..
