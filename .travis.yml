@@ -1,2 +1,2 @@
 language: cpp
-script: ./build_app.sh
+script: /bin/bash build_app.sh

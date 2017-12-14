@@ -1,10 +1,10 @@
-Start testing: Dec 13 21:29 PST
+Start testing: Dec 13 21:33 PST
 ----------------------------------------------------------
 1/1 Testing: unit
 1/1 Test: unit
 Command: "/Users/bsalyp/Documents/diana/travis/calculator/build/unit_tests"
 Directory: /Users/bsalyp/Documents/diana/travis/calculator/build
-"unit" start time: Dec 13 21:29 PST
+"unit" start time: Dec 13 21:33 PST
 Output:
 ----------------------------------------------------------
 [==========] Running 1 test from 1 test case.
@@ -21,8 +21,8 @@ Output:
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"unit" end time: Dec 13 21:29 PST
+"unit" end time: Dec 13 21:33 PST
 "unit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 13 21:29 PST
+End testing: Dec 13 21:33 PST
