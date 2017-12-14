@@ -24,13 +24,13 @@ add_library(
 set(GOOGLETEST_ROOT googletest/googletest CACHE STRING "Google Test source root")
 
 include_directories(
-    ${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}
-    ${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}/include
+    ${TRAVIS_BUILD_DIR}/${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}
+    ${$TRAVIS_BUILD_DIR}/${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}/include
     )
 
 set(GOOGLETEST_SOURCES
-    ${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}/src/gtest-all.cc
-    ${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}/src/gtest_main.cc
+    ${TRAVIS_BUILD_DIR}/${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}/src/gtest-all.cc
+    ${TRAVIS_BUILD_DIR}/${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}/src/gtest_main.cc
     )
 
 foreach(_source ${GOOGLETEST_SOURCES})
