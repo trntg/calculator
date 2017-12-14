@@ -25,7 +25,7 @@ set(GOOGLETEST_ROOT googletest/googletest CACHE STRING "Google Test source root"
 
 include_directories(
     ${TRAVIS_BUILD_DIR}/${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}
-    ${$TRAVIS_BUILD_DIR}/${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}/include
+    ${TRAVIS_BUILD_DIR}/${PROJECT_SOURCE_DIR}/${GOOGLETEST_ROOT}/include
     )
 
 set(GOOGLETEST_SOURCES
