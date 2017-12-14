@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libgoogletest.a  CMakeFiles/googletest.dir/googletest/googletest/src/gtest-all.cc.o CMakeFiles/googletest.dir/googletest/googletest/src/gtest_main.cc.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libgoogletest.a
