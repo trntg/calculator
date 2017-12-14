@@ -41,7 +41,7 @@ add_library(googletest ${GOOGLETEST_SOURCES})
 
 add_executable(
     unit_tests
-    test/tests.cpp
+    tests/tests.cpp
     )
 
 add_dependencies(unit_tests googletest)
